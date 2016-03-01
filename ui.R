@@ -1,14 +1,25 @@
 library(shiny)
+library(plotly)
 
-shinyUI(
+shinyUI(fluidPage(
+    titlePanel("Flowers"),
+    
+    sidebarLayout(
+      
+      sidebarPanel(
+        radioButtons("adjust", label = "X Axis",
+                     choices = names,
+                     selected = "Sepal.Length"),
+        
+        radioButtons("adjust2", label = "Y Axis",
+                     choices = names,
+                     selected = "Petal.Length")
+        ),
   
-    fluidPage(
-      
-      titlePanel("Flowerrrrsss"),
-      
-      mainPanel(
-        
-        
-      )
-    )
+        mainPanel(
+          plotlyOutput('map')
+          
+  )
+)
+)
 )
