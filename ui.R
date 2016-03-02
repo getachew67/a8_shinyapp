@@ -1,9 +1,12 @@
 library(shiny)
 library(plotly)
 
+# Creates a UI that changes with the size of the window
 shinyUI(fluidPage(
+  
+    # Creates the title of the app
     titlePanel("Let's Compare Petals and Sepals!!!"),
-    
+
     sidebarLayout(
       
       # Puts two radio button widgets in the sidebar
