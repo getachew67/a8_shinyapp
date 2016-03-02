@@ -1,0 +1,8 @@
+name: shiny_app_iris
+account: minsugim
+server: shinyapps.io
+bundleId: 385034
+url: https://minsugim.shinyapps.io/shiny_app_iris/
+when: 1456886381.99238
+asMultiple: FALSE
+asStatic: FALSE

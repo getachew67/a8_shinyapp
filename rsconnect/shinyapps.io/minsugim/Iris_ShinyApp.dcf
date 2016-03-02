@@ -1,8 +1,8 @@
-name: Iris_ShinyApp
+name: iris_ShinyApp
 account: minsugim
 server: shinyapps.io
-bundleId: 384091
+bundleId: 385080
 url: https://minsugim.shinyapps.io/Iris_ShinyApp/
-when: 1456815408.78656
+when: 1456891266.04169
 asMultiple: FALSE
 asStatic: FALSE

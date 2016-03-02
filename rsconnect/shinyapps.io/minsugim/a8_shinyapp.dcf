@@ -1,8 +1,8 @@
 name: a8_shinyapp
 account: minsugim
 server: shinyapps.io
-bundleId: 384979
+bundleId: 385068
 url: https://minsugim.shinyapps.io/a8_shinyapp/
-when: 1456881021.90674
+when: 1456890506.43366
 asMultiple: FALSE
 asStatic: FALSE
