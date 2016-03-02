@@ -1,9 +1,12 @@
+# Creates a plotly scatter plot with the data given from the widgets
+# X-axis and y-axis are made from taking strings as variables from the
+# columns of data that are chosen by the user with the widgets
+# `marker_size` is the integer that will be used to change the size of the
+# marker/plot in the scatter plot graph.
 build_plot <- function(data, xaxis, yaxis, marker_size) {
   
-  # Creates a plotly scatter plot with the data given from the widgets
-  # X-axis and y-axis are made from taking strings as variables from the
-  # columns of data that are chosen by the user with the widgets
-  
+  # Creates a scatter graph with custom x/y-axis, custom size of markers,
+  # and plots data points in pink. 
   plot_ly(data, 
     type = "scatter", 
     x = eval(parse(text = xaxis)),
